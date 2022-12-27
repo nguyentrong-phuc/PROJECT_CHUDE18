@@ -15,3 +15,6 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import load_img, img_to_array
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+st.title('Auto_Translator App')
+IPtype = st.radio("Input Type",('Microphone', 'Text', 'Audio File'),horizontal=True)
